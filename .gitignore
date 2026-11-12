@@ -1,0 +1,19 @@
+# Zależności
+node_modules
+
+# Build
+dist
+
+# Logi
+*.log
+npm-debug.log*
+
+# Pliki środowiskowe
+.env
+.env.local
+
+# Edytory / system
+.vscode
+.idea
+.DS_Store
+Thumbs.db
