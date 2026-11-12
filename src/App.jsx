@@ -9,6 +9,12 @@ function App() {
     setMovies(['Shrek', 'Król Lew', 'Toy Story'])
   }, [])
 
+  const addMovie = () => {
+    if (title.trim() === '') return
+    setMovies([...movies, title.trim()])
+    setTitle('')
+  }
+
   return (
     <div>
       <h1>Biblioteka filmów</h1>
@@ -18,7 +24,7 @@ function App() {
         onChange={(e) => setTitle(e.target.value)}
         placeholder="Tytuł filmu"
       />
-      <button>Dodaj film</button>
+      <button onClick={addMovie}>Dodaj film</button>
       <MovieList movies={movies} />
     </div>
   )
