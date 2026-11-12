@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import MovieList from './MovieList.jsx'
 
 function App() {
   const [movies, setMovies] = useState([])
@@ -10,6 +11,7 @@ function App() {
   return (
     <div>
       <h1>Biblioteka filmów</h1>
+      <MovieList movies={movies} />
     </div>
   )
 }
