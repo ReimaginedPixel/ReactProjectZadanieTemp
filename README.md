@@ -4,6 +4,8 @@ Prosta aplikacja w React do wyświetlania i dodawania tytułów filmów do obejr
 
 **Autor:** Konrad, nr 12
 
+**Demo:** https://reimaginedpixel.github.io/ReactProjectZadanieTemp/
+
 ## Funkcje
 
 - Po uruchomieniu wyświetlają się trzy domyślne filmy: „Shrek”, „Król Lew” i „Toy Story”.
